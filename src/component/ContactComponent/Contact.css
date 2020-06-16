@@ -1,0 +1,15 @@
+#contact {
+    background: #18191a;
+    color: #fff;
+  }
+  #contact h1,
+  #contact h2,
+  #contact h3,
+  #contact h4,
+  #contact h5,
+  #contact h6 {
+    color: #fff;
+  }
+  #contact .form-control {
+    border: 0;
+  }

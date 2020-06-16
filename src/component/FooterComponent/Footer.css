@@ -1,0 +1,9 @@
+#footer {
+  background: #141414;
+  padding: 20px 0;
+  color: #fff;
+}
+#footer .copy {
+  font-size: 12px;
+  margin: 5px 0;
+}

@@ -1,0 +1,52 @@
+#profile-contact {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    margin-top: 11vh;
+  }
+  
+  
+  .profile-item > h5 > a  {
+  color:black;
+  }
+  
+  .profile-item > h5 > a:hover {
+    color:red;
+    text-decoration: underline;
+    }
+
+  .profile-item i {
+    display: block;
+    line-height: 42px;
+    font-size: 32px;
+    color: #222;
+  }
+  .profile-widget {
+    margin-bottom: 40px;
+  }
+
+
+  @media (max-width: 767px) {
+    .wrapper {
+      text-align: center;
+    }
+    #profile-contact .profile-item,
+    #stats .stat {
+      margin: 0 0 20px;
+    }
+  }
+
+
+.alert,
+.avatar,
+.btn,
+.form-control,
+.label,
+.modal-content,
+.panel-group .panel,
+.progress,
+.widget-social li a {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
