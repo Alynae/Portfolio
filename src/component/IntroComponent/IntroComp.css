@@ -99,6 +99,18 @@ img{
   text-align: center;
   color: #fff;
 }
+
+#overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  right: 0;
+  width:100%;
+  text-align:center;
+}
+
 #intro h1,
 #intro h2,
 #intro h3,
