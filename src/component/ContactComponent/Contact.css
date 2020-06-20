@@ -1,6 +1,6 @@
 #contact {
-    background: #18191a;
-    color: #fff;
+    background: #fff;
+    color: black;
   }
   #contact h1,
   #contact h2,
@@ -8,8 +8,57 @@
   #contact h4,
   #contact h5,
   #contact h6 {
-    color: #fff;
+    color: black;
   }
-  #contact .form-control {
-    border: 0;
+
+
+  .icon-list {
+    list-style: none;
+    padding: 0;
+ 
   }
+  .icon-list > li > i {
+    margin-right: 6px;
+  }
+
+  i.fa.fa-linkedin,i.fa.fa-github,i.fa.fa-gitlab{
+    margin-right: 1rem;
+}
+
+  .social-icons a {
+ /*    height: 3.5rem;
+    width: 3.5rem; */
+    color: black !important;
+ /*    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem; */
+    text-decoration:  none;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .contact{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  /* .social-icons a:hover {
+    background-color: #BD5D38;
+  } */
+  .dev-icons {
+    font-size: 3rem;
+    display:grid
+  }
+  
+ /*  .dev-icons .list-inline-item i:hover {
+    color: #BD5D38;
+  }
+ */

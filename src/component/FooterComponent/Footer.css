@@ -1,7 +1,11 @@
 #footer {
-  background: #141414;
+  background: #2e2e2e;
   padding: 20px 0;
   color: #fff;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  left: 0;
 }
 #footer .copy {
   font-size: 12px;

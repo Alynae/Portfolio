@@ -1,11 +1,16 @@
 import React from "react";
 import banner1 from "../../img/banner1.jpg";
-import './IntroComp.css'
+import banner2 from "../../img/banner2.jpg";
+import banner3 from "../../img/banner3.jpg";
+import "./IntroComp.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 export default function Intro() {
   return (
-    <section id="intro" className="section">
-      <div className="container">
+    <section >
+      
+      {/*       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="hello ">
@@ -17,24 +22,38 @@ export default function Intro() {
               </h3>
             </div>
 
-            <a href="profile">
+            <a href="/resume">
               <div className="mouse-icon">
                 <div className="wheel"></div>
               </div>
             </a>
-
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div /* style={{ "left": "0px", "top": "0px", "overflow": "hidden", "margin": "0px", "padding": "0px", "zIndex": "-999998", "position": "absolute", "width": "1900px", "height": "768px" }} */
-      >
-        <img /* style={{ "position": "absolute", "margin": "0px", "padding": "0px", "border": "none", "maxHeight": "none", 'maxWidth': "none", 'zIndex': '-999999', 'width': '1900px', "height": "803.823px", "left": "0px", "top": "-17.9117px" }} */
-          src={banner1}
-          alt="banner"
-          className="banner"
-        />
-      </div>
+      <Carousel
+        showArrows={false}
+        showThumbs={false}
+        showStatus={false}
+        dynamicHeight={true}
+        autoPlay={true}
+        thumbWidth={0}
+        infiniteLoop={true}
+        interval={2500}
+        swipeable={true}
+        >
+          
+        <div>
+          <img src={banner1} alt="banner" />
+        </div>
+        <div>
+          <img src={banner2} alt="banner" />
+        </div>
+        <div>
+          <img src={banner3} alt="banner" />
+        </div>
+      </Carousel>
+
     </section>
   );
 }

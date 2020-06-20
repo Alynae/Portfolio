@@ -1,5 +1,6 @@
 import React from 'react';
 import profile from '../../../img/profile.jpg'
+import "./Profile.css"
 
 
 export default function Profils() {

@@ -60,3 +60,50 @@
     opacity: 0;
   }
 }
+
+img{
+  max-height: 850px;
+}
+
+.BannerImg {
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  z-index: -999998;
+  position: absolute;
+  width: 1900px;
+  height: 850px;
+}
+
+.banner {
+  background-position: center;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  max-height: none;
+  max-width: none;
+  z-index: -999999;
+  width: 1900px;
+  height: 850px;
+  left: 0px;
+  top: -17.9117px;
+}
+
+.control-dots{ display: inline-block; width: 50px }
+
+#intro {
+  /* padding: 260px 0 160px 0; */
+  text-align: center;
+  color: #fff;
+}
+#intro h1,
+#intro h2,
+#intro h3,
+#intro h4,
+#intro h5,
+#intro h6 {
+  color: #fff;
+}
