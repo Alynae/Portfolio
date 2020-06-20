@@ -2,9 +2,11 @@ import React from "react";
 import banner1 from "../../img/banner1.jpg";
 import banner2 from "../../img/banner2.jpg";
 import banner3 from "../../img/banner3.jpg";
+import { Carousel } from "react-responsive-carousel";
+
 import "./IntroComp.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+
 
 export default function Intro() {
   return (
@@ -21,13 +23,13 @@ export default function Intro() {
         swipeable={true}
       >
         <div>
-          <img src={banner1} alt="banner" />
+          <img src={banner1} alt="banner1" className="bannerSize"/>
         </div>
         <div>
-          <img src={banner2} alt="banner" />
+          <img src={banner2} alt="banner2" className="bannerSize"/>
         </div>
         <div>
-          <img src={banner3} alt="banner" />
+          <img src={banner3} alt="banner3" className="bannerSize"/>
         </div>
 
     
