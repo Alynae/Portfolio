@@ -14,6 +14,7 @@ export default function Intro() {
       <Carousel
         showArrows={false}
         showThumbs={false}
+        showIndicators={false}
         showStatus={false}
         dynamicHeight={true}
         autoPlay={true}
@@ -21,6 +22,7 @@ export default function Intro() {
         infiniteLoop={true}
         interval={2500}
         swipeable={true}
+        
       >
         <div>
           <img src={banner1} alt="banner1" className="bannerSize"/>
