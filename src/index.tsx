@@ -3,8 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { GoogleReCaptchaProvider,GoogleReCaptcha } from 'react-google-recaptcha-v3';
-import logger from "./logger";
+import { GoogleReCaptchaProvider} from 'react-google-recaptcha-v3';
 
 if (process.env.NODE_ENV !== "production") {
   localStorage.setItem("debug", "Logger:*");
@@ -14,11 +13,10 @@ const CaptchaKey = process.env.REACT_APP_RECAPTCHA_KEY;
 
 ReactDOM.render(
   <React.StrictMode>
-    <GoogleReCaptchaProvider
+    <GoogleReCaptchaProvider 
       reCaptchaKey={CaptchaKey}
-      language="fr"
+      language="fr" 
     >
-       <GoogleReCaptcha onVerify={token => logger.info('token',token)} />
       <App />
     </GoogleReCaptchaProvider>
   </React.StrictMode>,

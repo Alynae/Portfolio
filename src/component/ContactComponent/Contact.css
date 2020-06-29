@@ -82,3 +82,42 @@
   opacity:1;
   box-shadow:0px 0px 10px rgba(0,0,0,0.4);
 }
+
+.btn,
+.form-control,
+.form-control:focus,
+.form-control:hover,
+.modal-content,
+.panel,
+.progress {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+.form-control {
+  background: #fff;
+  border: 2px solid #c4c4c4;
+  height: 54px;
+  font-size: 14px;
+  padding: 15px;
+  color: #777;
+}
+
+
+.form-control:focus {
+  color: #495057;
+  border-color: #080808a1;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.36);
+}
+
+.form-horizontal .form-group-lg .form-control,
+.input-lg {
+  height: 62px;
+}
+.form-horizontal .form-group-sm .form-control,
+.input-sm {
+  height: 40px;
+  font-size: 12px;
+}
