@@ -121,3 +121,12 @@
   height: 40px;
   font-size: 12px;
 }
+
+.Toastify__toast--success {
+  background:#419760!important;
+}
+
+.btn .icon-before {
+  margin-right: 6px;
+}
+

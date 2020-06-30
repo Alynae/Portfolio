@@ -26,12 +26,7 @@ export default function Contact() {
                   </li>
                   <li style={{ color: "black" }}>
                     <i className="fa fa-fw fa-envelope-o"></i>
-                    <a
-                      style={{ color: "black" }}
-                      href="mailto:lebricquerjeremy@gmail.com"
-                    >
-                      lebricquerjeremy@gmail.com
-                    </a>
+                    <a style={{ color: "black" }}href="mailto:lebricquerjeremy@gmail.com">lebricquerjeremy@gmail.com</a>
                   </li>
                 </ul>
               </div>
