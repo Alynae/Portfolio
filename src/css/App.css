@@ -68,3 +68,7 @@ img {
 .navbar-color .navbar-toggle .icon-bar {
   background: #222;
 }
+
+.btn .icon-before {
+  margin-right: 6px;
+}
