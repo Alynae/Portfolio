@@ -13,16 +13,11 @@ export default function Contact() {
               <h2>Contactez moi</h2>
               <p>Une question ? une remarque ? laissez moi un message !</p>
             </div>
-
             <div className="col-md-6">
               <div className="contact">
                 <ul className="icon-list">
                   <li>
-                    <i className="fa fa-fw fa-map-marker"></i>Lannion - Bretagne
-                    (France)
-                  </li>
-                  <li>
-                    <i className="fa fa-fw fa-phone"></i>06 ++ ++ ++ ++
+                    <i className="fa fa-fw fa-map-marker"></i>Lannion - Bretagne (France)
                   </li>
                   <li style={{ color: "black" }}>
                     <i className="fa fa-fw fa-envelope-o"></i>

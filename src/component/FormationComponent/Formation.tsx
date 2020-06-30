@@ -2,7 +2,7 @@ import React from "react";
 import School from "./School";
 import Experience from "./Experience";
 import Outils from "./Outils";
-/* import Mypdf from "../../pdf/LeBricquerJeremy.pdf"; */
+import PdfFile from "./Pdfcreator";
 
 export default function Formation() {
   return (
@@ -16,17 +16,9 @@ export default function Formation() {
         </div>
         <School />
         <Experience />
+        <PdfFile />
       </div>
       <Outils />
-
-      {/*      <div className="row d-flex justify-content-center">
-        <a href={Mypdf} download="random.pdf"  target="_blank" >
-          <button className="btn btn-outline-dark">
-            <i className="fa fa-paper-plane-o icon-before"></i> Téléchargez Mon
-            CV
-          </button>
-        </a>
-      </div> */}
     </section>
   );
 }
