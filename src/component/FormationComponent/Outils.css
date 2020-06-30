@@ -1,4 +1,10 @@
 .logoTitle {
     max-width: 160px;
     width: 160px;
+    text-align: center;
+}
+
+.react-multi-carousel-list {
+    cursor:grab ;
+    margin-left: 20%;
 }
