@@ -32,10 +32,9 @@ export default function Intro() {
         </div>
         <div>
           <img src={banner3} alt="banner3" className="bannerSize"/>
-        </div>
-
-    
+        </div>    
       </Carousel>
+
       <div className="container" id="overlay" >
           <div className="row">
             <div className="col-md-12">
