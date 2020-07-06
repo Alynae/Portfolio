@@ -11,6 +11,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function Intro() {
   return (
     <section>
+      <div className="opacity">
       <Carousel
         showArrows={false}
         showThumbs={false}
@@ -34,11 +35,12 @@ export default function Intro() {
           <img src={banner3} alt="banner3" className="bannerSize"/>
         </div>    
       </Carousel>
+      </div>
 
       <div className="container" id="overlay" >
           <div className="row">
             <div className="col-md-12">
-              <div className="hello ">
+            <div className="intro-content">
                 <h1>Bonjour, je suis Jérémy Le bricquer</h1>
                 <h3>
                   <span

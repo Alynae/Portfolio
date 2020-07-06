@@ -71,5 +71,17 @@
 
 .bannerSize{
 height: 85vh;
+filter:saturate(110%) brightness(1.5) contrast(125%) blur(1px) ;
+filter: hue-rotate(10deg);
+} 
+
+.opacity{
+  opacity: 0.8;
+  filter: drop-shadow(0px 4px 10px black);
 }
 
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+.intro-content {
+  backdrop-filter: blur(4px);
+} 
+}
