@@ -44,7 +44,7 @@ export default function Intro() {
                   <span
                     style={{ textShadow: "black 0px 0px 0px", opacity: "1" }}
                   >
-                    Dev junior - Front &amp;Back{" "}
+                    Dev junior - Front &amp; Back{" "}
                   </span>
                 </h3>
               </div>
