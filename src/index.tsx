@@ -12,6 +12,7 @@ if (process.env.NODE_ENV !== "production") {
 const CaptchaKey = process.env.REACT_APP_RECAPTCHA_KEY;
 
 ReactDOM.render(
+  
   <React.StrictMode>
     <GoogleReCaptchaProvider 
       reCaptchaKey={CaptchaKey}

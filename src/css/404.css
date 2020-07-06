@@ -1,0 +1,47 @@
+/*404 page*/
+#page404 {
+    background-image: url(http://www.supah.it/dribbble/008/008.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Roboto Mono", "Liberation Mono", Consolas, monospace;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 25px;
+    margin-top: 25px;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .btn-outline:hover {
+    color: black;
+    background: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .opacity404{
+   opacity: 0.9;
+  }

@@ -3,10 +3,12 @@ import Navigation from "./component/Navigation";
 import Resume from "./component/ResumeComponent/Resume";
 import Portfolio from "./component/PortfolioComponent/Porfolio";
 import Contact from "./component/ContactComponent/Contact";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import Main from "./component/IntroComponent/Home";
 import Formation from "./component/FormationComponent/Formation";
 import { ToastContainer } from "react-toastify";
+import NoMatchPage from './component/NoMatchPage';
+
 import "react-toastify/dist/ReactToastify.css";
 import "./css/App.css";
 
@@ -33,6 +35,8 @@ function App() {
           <Route exact path="/formation" component={Formation} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route component={NoMatchPage} />
+          <Redirect to="/404" />
         </Switch>
       </Router>
     </div>
