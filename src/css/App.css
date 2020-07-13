@@ -47,6 +47,19 @@ img {
   text-transform: uppercase;
   color: #fff !important;
 }
+
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    align-items: center;
+}
+}
+
+.navbar-expand-lg .navbar-collapse{
+  margin-right: 2%;
+}
+
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li.active {
@@ -96,6 +109,7 @@ img {
 .navbar-color .navbar-toggle .icon-bar {
   background: #222;
 }
+
 .btn .icon-before {
   margin-right: 6px;
 }
@@ -124,6 +138,62 @@ img {
 @media (max-width: 320px) {
   #overlay {
     top: 25%;
+  }
+}
+
+/*NAVBAR*/
+
+.nav-link {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  position: relative;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  /*   background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%); */
+  background-image: linear-gradient(60deg, black 0%, lightgrey 100%);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: -5px;
+}
+
+.nav-link:hover:before{
+  visibility: visible;
+  width: 90%;
+}
+
+.nav-link:hover:before,
+.nav-link:focus:before,
+.nav-link.active:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.nav-link:focus:before,
+.nav-link.active:before {
+  visibility: visible;
+  width: 80%;
+  margin-left: 10%;
+  height: 2px;
+}
+
+
+@media (max-width: 768px) {
+  .nav-link:hover:before,
+  .nav-link:focus:before,
+  .nav-link.active:before {
+    visibility: hidden;
   }
 }
 
