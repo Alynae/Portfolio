@@ -12,7 +12,6 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="section">
 
-
       <div className="container">
         <div className="row">
           <div className="col-md-12 headline">
@@ -38,6 +37,7 @@ export default function Portfolio() {
           ))}
         </div>
       </div>
+  
     </section>
   );
 }

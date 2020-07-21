@@ -1,11 +1,11 @@
 const data = [
   {
     name: 'ConvertisseurC',
-    img : 'https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+    img : require('../../img/project/ConveritisseurC.jpg'),
   },
    {
     name: 'javafx',
-    img: 'https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
+    img: require('../../img/project/javafx.jpg')
   },
    {
     name: 'diaporama',
