@@ -1,13 +1,14 @@
 import React from "react";
 import Navigation from "./component/Navigation";
 import Resume from "./component/ResumeComponent/Resume";
-import Portfolio from "./component/PortfolioComponent/Porfolio";
+import Portfolio from "./component/PortfolioComponent/portfolio";
 import Contact from "./component/ContactComponent/Contact";
 import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import Main from "./component/IntroComponent/Home";
 import Formation from "./component/FormationComponent/Formation";
 import { ToastContainer } from "react-toastify";
 import NoMatchPage from './component/NoMatchPage';
+import ConvertisseurC from './component/PortfolioComponent/ProjectComp/ConvertisseurC';
 
 import "react-toastify/dist/ReactToastify.css";
 import "./css/App.css";
@@ -35,6 +36,12 @@ function App() {
           <Route exact path="/formation" component={Formation} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route  path='/portfolio/ConvertisseurC' component={ConvertisseurC} />
+          {/*         <Route exact path="/javafx" component={javafx} />
+        <Route exact path="/diaporama" component={diaporama} />
+        <Route exact path="/quizz" component={quizz_react} />
+        <Route exact path="/dashboard" component={dashboard} />
+        <Route exact path="/ootrTracker" component={ootrTracker} /> */}
           <Route component={NoMatchPage} />
           <Redirect to="/404" />
         </Switch>

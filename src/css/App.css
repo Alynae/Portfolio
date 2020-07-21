@@ -189,7 +189,7 @@ img {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .nav-link:hover:before,
   .nav-link:focus:before,
   .nav-link.active:before {
