@@ -3,18 +3,24 @@ import Navigation from "./component/Navigation";
 import Resume from "./component/ResumeComponent/Resume";
 import Portfolio from "./component/PortfolioComponent/portfolio";
 import Contact from "./component/ContactComponent/Contact";
-import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Main from "./component/IntroComponent/Home";
 import Formation from "./component/FormationComponent/Formation";
 import { ToastContainer } from "react-toastify";
-import NoMatchPage from './component/NoMatchPage';
-import ConvertisseurC from './component/PortfolioComponent/ProjectComp/ConvertisseurC';
+import NoMatchPage from "./component/NoMatchPage";
+import Projects from "./component/PortfolioComponent/Projects";
 
 import "react-toastify/dist/ReactToastify.css";
 import "./css/App.css";
 
 
-function App() {
+const App = (props:any) => {
+
   return (
     <div className="wrapper">
       <Router>
@@ -36,18 +42,13 @@ function App() {
           <Route exact path="/formation" component={Formation} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-          <Route  path='/portfolio/ConvertisseurC' component={ConvertisseurC} />
-          {/*         <Route exact path="/javafx" component={javafx} />
-        <Route exact path="/diaporama" component={diaporama} />
-        <Route exact path="/quizz" component={quizz_react} />
-        <Route exact path="/dashboard" component={dashboard} />
-        <Route exact path="/ootrTracker" component={ootrTracker} /> */}
+          <Route path={`/portfolio/:id`} render={(props) => <Projects dataProject={Portfolio} {...props} />} />
           <Route component={NoMatchPage} />
           <Redirect to="/404" />
         </Switch>
       </Router>
     </div>
   );
-}
+};
 
 export default App;

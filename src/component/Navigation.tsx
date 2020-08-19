@@ -3,7 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import {NavLink} from 'react-router-dom'
 
-export default function Navigation() {
+const Navigation = () => {
+  
   return (
     <Navbar bg="light" expand="lg" fixed="top" >
       <Navbar.Brand as={NavLink} exact to="/">Jérémy Le bricquer</Navbar.Brand>
@@ -20,3 +21,5 @@ export default function Navigation() {
     </Navbar>
   );
 }
+
+export default Navigation;

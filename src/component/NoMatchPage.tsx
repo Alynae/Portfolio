@@ -2,7 +2,7 @@ import React from "react";
 import "../../src/css/404.css";
 import { Link } from "react-router-dom";
 
-export default function NoMatchPage() {
+const NoMatchPage = () => {
   return (
     <section>
       <div className="opacity404">
@@ -17,3 +17,4 @@ export default function NoMatchPage() {
     </section>
   );
 }
+export default NoMatchPage;
