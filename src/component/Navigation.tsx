@@ -11,11 +11,11 @@ const Navigation = () => {
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end ">
         <Nav >
-          <Nav.Link  as={NavLink}exact to="/" >Home</Nav.Link>
-          <Nav.Link as={NavLink} exact to="/resume" >Resume</Nav.Link>
-          <Nav.Link  as={NavLink} exact to="/formation"  >Formation</Nav.Link>
-          <Nav.Link  as={NavLink} exact to="/portfolio" >Portfolio</Nav.Link>
-          <Nav.Link  as={NavLink} exact to="/contact" >Contact</Nav.Link>
+          <Nav.Link  as={NavLink} className="itemLink" exact to="/" >Home</Nav.Link>
+          <Nav.Link as={NavLink} className="itemLink" exact to="/resume" >Resume</Nav.Link>
+          <Nav.Link  as={NavLink} className="itemLink" exact to="/formation"  >Formation</Nav.Link>
+          <Nav.Link  as={NavLink} className="itemLink" exact to="/portfolio" >Portfolio</Nav.Link>
+          <Nav.Link  as={NavLink} className="itemLink" exact to="/contact" >Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

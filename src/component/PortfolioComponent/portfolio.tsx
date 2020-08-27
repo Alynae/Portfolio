@@ -20,7 +20,7 @@ const Portfolio =  ( props: { match: any; } ) => {
                 to={`${match.url}/${project.id}`
                 }
               >
-                <div className="icon">
+                <div className="icon-link">
                   <i className="fa fa-link" aria-hidden="true"></i>
                 </div>
               </Nav.Link>

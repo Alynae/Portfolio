@@ -6,10 +6,8 @@ const Projects = (props: any) => {
 
   
   return (
-    <section className="section ">
-      <div className="container">
+    <section className="section">
         <ProjectDetail />
-      </div>
     </section>
   );
 };
