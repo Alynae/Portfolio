@@ -17,7 +17,7 @@ ReactDOM.render(
     <GoogleReCaptchaProvider 
       reCaptchaKey={CaptchaKey}
       language="fr" 
-    >
+>
       <App />
     </GoogleReCaptchaProvider>
   </React.StrictMode>,

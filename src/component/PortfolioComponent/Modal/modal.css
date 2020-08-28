@@ -1,0 +1,31 @@
+
+.modalImg{
+    width: 100%;
+}
+
+.myModal {
+    max-width: 80vw!important;
+}
+
+@media (max-width: 991px){
+    .myModal {
+        max-width: 800px!important;
+        max-height: auto
+    }
+}
+
+
+/* @media (max-width: 425px){
+    .myModal {
+        max-width: 800px!important;
+        max-height: auto;
+        height:auto;
+    }
+} */
+
+
+
+
+
+
+

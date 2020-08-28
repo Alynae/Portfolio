@@ -1,19 +1,26 @@
 import React from "react";
 import Navigation from "./component/Navigation";
 import Resume from "./component/ResumeComponent/Resume";
-import Portfolio from "./component/PortfolioComponent/Porfolio";
+import Portfolio from "./component/PortfolioComponent/portfolio";
 import Contact from "./component/ContactComponent/Contact";
-import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Main from "./component/IntroComponent/Home";
 import Formation from "./component/FormationComponent/Formation";
 import { ToastContainer } from "react-toastify";
-import NoMatchPage from './component/NoMatchPage';
+import NoMatchPage from "./component/NoMatchPage";
+import Projects from "./component/PortfolioComponent/Project/Projects";
 
 import "react-toastify/dist/ReactToastify.css";
 import "./css/App.css";
 
 
-function App() {
+const App = (props:any) => {
+
   return (
     <div className="wrapper">
       <Router>
@@ -35,12 +42,13 @@ function App() {
           <Route exact path="/formation" component={Formation} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route path={`/portfolio/:id`} render={(props) => <Projects dataProject={Portfolio} {...props} />} />
           <Route component={NoMatchPage} />
           <Redirect to="/404" />
         </Switch>
       </Router>
     </div>
   );
-}
+};
 
 export default App;
