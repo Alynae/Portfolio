@@ -13,7 +13,7 @@ import Main from "./component/IntroComponent/Home";
 import Formation from "./component/FormationComponent/Formation";
 import { ToastContainer } from "react-toastify";
 import NoMatchPage from "./component/NoMatchPage";
-import Projects from "./component/PortfolioComponent/Projects";
+import Projects from "./component/PortfolioComponent/Project/Projects";
 
 import "react-toastify/dist/ReactToastify.css";
 import "./css/App.css";

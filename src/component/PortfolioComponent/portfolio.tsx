@@ -32,6 +32,7 @@ const Portfolio =  ( props: { match: any; } ) => {
             />
           </header>
           <footer className="production__article__footer">
+            
             <h3 className="production__article__footer__title">
               {project.name}
             </h3>

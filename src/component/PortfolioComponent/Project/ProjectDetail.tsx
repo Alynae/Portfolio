@@ -1,15 +1,35 @@
-import React from "react";
-import data from "./data";
+import React, { useState } from "react";
+import data from "../data";
 import { useParams } from "react-router-dom";
 import "./project.css";
-import work from "../../img/project/WorkBlur.jpg";
+import work from "../../../img/project/WorkBlur.jpg";
+import ModalImg from "../Modal/modal";
 
-const ProjectDetail = () => {
+const ProjectDetail = (props: any) => {
   let { id } = useParams();
   const item = data[id];
 
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const [state, setState] = useState({
+    index: "",
+  });
+
+  const handleClick = (value: any) => {
+    console.log(value);
+    setState({
+      index: value,
+    });
+    handleShow()
+  }
+  
+
   return (
     <div className="bodyWork">
+      <ModalImg show={show} onHide={handleClose} item={item} {...state}/>
+
       <div className="pimg1" style={{ backgroundImage: `url(${work})` }}>
         <div className="opac">
           <section className="art">
@@ -55,9 +75,16 @@ const ProjectDetail = () => {
           </section>
           <section className="callout imgPreview">
             {item.imgSub.photo.map((e: any, index: any) => {
-              return (<div className="imgPreview" key={index}>
-                <img className="preview" src={e} alt={e} />
-              </div>);
+              return (
+                <div className="imgPreview" key={index}>
+                  <img
+                    className="preview"
+                    src={e}
+                    alt={e}
+                    onClick={() => handleClick(index)}
+                  />
+                </div>
+              );
             })}
           </section>
           <div className="back">

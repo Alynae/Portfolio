@@ -16,11 +16,12 @@
 .preview {
   border-radius: 1%;
   overflow: hidden;
-  filter: contrast(1.1);
   margin: 1%;
   height: auto;
-  opacity: 0.8;
-  filter: drop-shadow(0px 4px 10px black);
+  opacity: 0.9;
+  filter: drop-shadow(0px 4px 10px black)contrast(1.1);
+  width: 70vw;
+  align-self: center;
 }
 
 .art {
