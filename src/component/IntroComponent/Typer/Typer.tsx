@@ -1,30 +1,51 @@
 import React, { useState, useEffect } from "react";
+import "./Type.css"
 
-const Typer = () => {
-
+const Typer = ({ title = "", dataText }: TyperProps) => {
   const [text, setText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [speed, setSpeed] = useState(1500);
+  const [loop, setLoop] = useState(0);
 
-  const textToType="Dev junior - Front & Back ";
-  const delay = 250;
-  let loop: Boolean = true;
+  const i: number = loop % dataText.length;
+  const fullText: string = dataText[i];
+
+  const handleTyping = () => {
+    setText(
+      isDeleting
+        ? fullText.substring(0, text.length - 1)
+        : fullText.substring(0, text.length + 1)
+    );
+
+    setSpeed(isDeleting ? 30 : 150);
+
+    if (!isDeleting && text === fullText) {
+      setTimeout(() => setIsDeleting(true), 500);
+    } else if (isDeleting && text === "") {
+      setIsDeleting(false);
+      setLoop(loop + 1);
+    }
+  };
 
   useEffect(() => {
-    if (currentIndex < textToType.length) {
-      setTimeout(() => {
-        setText(text + textToType[currentIndex]);
+    const timer = setTimeout(() => {
+      handleTyping();
+    }, speed);
+    return () => clearTimeout(timer);
+  });
 
-        setCurrentIndex(currentIndex + 1);
-      }, delay);
-    } else if (loop) {
-      setText("");
-
-      setCurrentIndex(0);
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentIndex]);
-
-  return <>{text}</>;
+  return (
+    <>
+      {title}
+      {text}
+      <span id="cursor"/>
+    </>
+  );
 };
+
+interface TyperProps {
+  dataText: string[];
+  title?: string;
+}
 
 export default Typer;
