@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import "./Contact.css";
 
 export default function ContactForm(props: any) {
+  
   (function () {
     emailjs.init("process.env.REACT_APP_EMAILJS_USERID");
   })();
