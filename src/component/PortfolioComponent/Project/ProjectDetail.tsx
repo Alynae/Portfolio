@@ -6,6 +6,7 @@ import work from "../../../img/project/WorkBlur.jpg";
 import ModalImg from "../Modal/modal";
 
 const ProjectDetail = (props: any) => {
+  
   let { id } = useParams();
   const item = data[id];
 
