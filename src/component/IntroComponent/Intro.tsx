@@ -23,7 +23,7 @@ const Intro = () => {
           autoPlay={true}
           thumbWidth={0}
           infiniteLoop={true}
-          interval={2500}
+          interval={10000}
           swipeable={true}
         >
           <div>
