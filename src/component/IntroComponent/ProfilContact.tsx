@@ -9,15 +9,15 @@ export default function ProfilsContact() {
                 <div className="row " >
                     <div className="col-sm-6 " style={{"textAlignLast": "center"}}>
                         <div className="profile-item"><i className="fa fa-envelope-o"></i>
-                            <h5>
-                                <a href="mailto:jeremylebricquer@gmail.com">jeremylebricquer@gmail.com</a>
-                            </h5>
+                            <p className="link">
+                                <a className="not-active" href="mailto:jeremylebricquer@gmail.com">jeremylebricquer@gmail.com</a>
+                            </p>
                         </div>
                     </div>
                     <div className="col-sm-6 " style={{"textAlignLast": "center"}}>
                         <div className="profile-item">
                             <i className="fa fa-map-marker"></i>
-                            <h5>Lannion , Bretagne , France</h5>
+                            <p className="link">Lannion , Bretagne , France</p>
                         </div>
                     </div>
                 </div>

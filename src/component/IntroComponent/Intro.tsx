@@ -4,11 +4,13 @@ import banner2 from "../../img/banner2.jpg";
 import banner3 from "../../img/banner3.jpg";
 import { Carousel } from "react-responsive-carousel";
 import Typer from "./Typer/Typer";
+// @ts-ignore
+import WaterWave from "react-water-wave";
 
 import "./IntroComp.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-export default function Intro() {
+const Intro = () => {
   return (
     <section>
       <div className="opacity">
@@ -21,17 +23,37 @@ export default function Intro() {
           autoPlay={true}
           thumbWidth={0}
           infiniteLoop={true}
-          interval={2500}
+          interval={10000}
           swipeable={true}
         >
           <div>
-            <img src={banner1} alt="banner1" className="bannerSize" />
+            <WaterWave
+              imageUrl={banner1}
+              alt="banner1"
+              className="bannerSize"
+              dropRadius="10"
+              perturbance="0.03"
+              resolution="1200"
+            >
+            </WaterWave>
           </div>
+
           <div>
-            <img src={banner2} alt="banner2" className="bannerSize" />
+            {" "}
+            <WaterWave
+              imageUrl={banner2}
+              alt="banner2"
+              className="bannerSize"
+            ></WaterWave>
           </div>
+
           <div>
-            <img src={banner3} alt="banner3" className="bannerSize" />
+            {" "}
+            <WaterWave
+              imageUrl={banner3}
+              alt="banner3"
+              className="bannerSize"
+            ></WaterWave>
           </div>
         </Carousel>
       </div>
@@ -40,17 +62,17 @@ export default function Intro() {
         <div className="row">
           <div className="col-md-12">
             <div className="intro-content">
-              <span style={{ textShadow: "black -3px 3px 4px"}}>
+              <span style={{ textShadow: "black -3px 3px 4px" }}>
                 <h1> Bonjour, je suis Jérémy Le bricquer</h1>
-                <h4 className ="typer">
+                <p className="typer">
                   <Typer
                     title={""}
                     dataText={[" Dev junior", " Frontend & Backend"]}
                   />
-                </h4>
+                </p>
               </span>
             </div>
-            <a href="/resume">
+            <a href="/resume" aria-label="resume">
               <div className="mouse-icon">
                 <div className="wheel"></div>
               </div>
@@ -60,4 +82,6 @@ export default function Intro() {
       </div>
     </section>
   );
-}
+};
+
+export default Intro;
