@@ -1,8 +1,15 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #545454;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 
 #intro {
   text-align: center;
@@ -29,10 +36,57 @@ body {
   color: #fff;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 5px 0 10px;
+}
+.headline {
+  margin: 0 0 60px;
+}
+.headline p {
+  font-weight: 600;
+  color: #9a9a9a;
+  font-size: larger;
+}
+
+.service {
+  margin: 0 0 40px;
+}
+p {
+  margin: 0 0 10px;
+}
 .callout,
 .section {
   position: relative;
   padding: 6rem 0;
+}
+
+.callout {
+  background: #f5f5f5;
+}
+
+.callout-btn {
+  margin-top: 10px;
+}
+
+.resume-items {
+  margin-bottom: 40px;
+}
+
+.resume-place {
+  margin-bottom: 20px;
+}
+
+.resume-place > h4 > i,
+.resume-place > i {
+  color: #c4c4c4;
+  font-size: 14px;
+  margin-right: 5px;
 }
 img {
   max-width: 100%;
@@ -43,22 +97,23 @@ img {
   background: 0 0;
   border-radius: 0;
   border: 0;
-  padding: 20px 0;
   text-transform: uppercase;
   color: #fff !important;
+  box-shadow: 1px -1px 20px 4px black;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(0 0 0 / 0.7);
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
   .navbar-nav {
     align-items: center;
-}
+  }
 }
 
-.navbar-expand-lg .navbar-collapse{
+.navbar-expand-lg .navbar-collapse {
   margin-right: 2%;
 }
 
@@ -167,11 +222,11 @@ img {
   margin-bottom: -5px;
 }
 
-.itemLink:hover:before{
+.itemLink:hover:before {
   visibility: visible;
   width: 90%;
   top: 0;
-  right:0;
+  right: 0;
 }
 
 .itemLink:hover:before,
@@ -179,7 +234,6 @@ img {
 .itemLink.active:before {
   visibility: visible;
   transform: scaleX(1);
-  
 }
 
 .itemLink:focus:before,
@@ -192,7 +246,6 @@ img {
   left: 0;
 }
 
-
 @media (max-width: 992px) {
   .itemLink:hover:before,
   .itemLink:focus:before,
@@ -200,4 +253,3 @@ img {
     visibility: hidden;
   }
 }
-

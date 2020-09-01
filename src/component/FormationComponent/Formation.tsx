@@ -14,8 +14,8 @@ export default function Formation() {
             <p>Expériences et formation.</p>
           </div>
         </div>
-        <School />
         <Experience />
+        <School />
         <PdfFile />
       </div>
       <Outils />

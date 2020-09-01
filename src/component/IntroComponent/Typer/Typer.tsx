@@ -34,6 +34,11 @@ const Typer = ({ title = "", dataText }: TyperProps) => {
     return () => clearTimeout(timer);
   });
 
+  useEffect(() => {
+    return () => {
+    };
+  }, []);
+
   return (
     <>
       {title}

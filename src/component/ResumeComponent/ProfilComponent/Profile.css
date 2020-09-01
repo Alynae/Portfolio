@@ -75,3 +75,9 @@
   -o-border-radius: 3px;
   border-radius: 3px;
 }
+
+.service .icon {
+  font-size: 32px;
+  margin: 0 0 5px;
+  color: #222;
+}

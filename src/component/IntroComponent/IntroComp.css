@@ -14,6 +14,7 @@
   line-height: 1.2;
   color: inherit;
   font-weight: 500;
+  touch-action: none;
 }
 
 /* Mouse icon*/
@@ -52,18 +53,23 @@
   margin-right: auto;
 }
 
-.link{
+.link {
   font-size: 1.25rem;
-    margin-bottom: .5rem;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.2;
-    color: inherit;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
 }
 
 .not-active {
-  pointer-events: none;
-   cursor: default; 
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+}
+
+.not-active:hover {
+  cursor: default;
   text-decoration: none;
   color: black;
 }
@@ -114,6 +120,7 @@
   height: 85vh;
   filter: saturate(110%) brightness(1.5) contrast(125%) blur(1px);
   filter: hue-rotate(10deg);
+  touch-action: none;
 }
 
 .opacity {

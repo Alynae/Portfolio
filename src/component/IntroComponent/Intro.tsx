@@ -7,8 +7,7 @@ import Typer from "./Typer/Typer";
 // @ts-ignore
 import WaterWave from "react-water-wave";
 
-import "./IntroComp.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 const Intro = () => {
   return (

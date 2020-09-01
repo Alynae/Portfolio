@@ -1,23 +1,25 @@
-import React from "react";
-import Navigation from "./component/Navigation";
-import Resume from "./component/ResumeComponent/Resume";
-import Portfolio from "./component/PortfolioComponent/portfolio";
-import Contact from "./component/ContactComponent/Contact";
+import React,{ lazy, Suspense } from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
 } from "react-router-dom";
+import Navigation from "./component/Navigation";
 import Main from "./component/IntroComponent/Home";
-import Formation from "./component/FormationComponent/Formation";
+import   Resume  from "./component/ResumeComponent/Resume";
 import { ToastContainer } from "react-toastify";
-import NoMatchPage from "./component/NoMatchPage";
-import Projects from "./component/PortfolioComponent/Project/Projects";
-
 import "react-toastify/dist/ReactToastify.css";
 import "./css/App.css";
 
+
+const Portfolio = lazy(()=> import ("./component/PortfolioComponent/portfolio"));
+const Projects = lazy(()=> import ("./component/PortfolioComponent/Project/Projects"));
+const Contact = lazy(()=> import ("./component/ContactComponent/Contact"));
+const Formation = lazy(()=> import ("./component/FormationComponent/Formation"));
+const NoMatchPage = lazy(()=> import ("./component/NoMatchPage"));
+
+const renderLoader = () => <p>Loading</p>;
 
 const App = (props:any) => {
 
@@ -36,16 +38,18 @@ const App = (props:any) => {
           pauseOnHover
         />
         <Navigation />
+        <Suspense fallback={renderLoader()}>
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/formation" component={Formation} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-          <Route path={`/portfolio/:id`} render={(props) => <Projects dataProject={Portfolio} {...props} />} />
+          <Route exact path={`/portfolio/:id`} render={(props) => <Projects dataProject={Portfolio} {...props} />} />
           <Route component={NoMatchPage} />
           <Redirect to="/404" />
         </Switch>
+        </Suspense>
       </Router>
     </div>
   );

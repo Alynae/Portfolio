@@ -1,88 +1,73 @@
 #contact {
-    background: #fff;
-    color: black;
-    padding-top: 10rem;
-    text-align:justify;
-  }
-  #contact h1,
-  #contact h2,
-  #contact h3,
-  #contact h4,
-  #contact h5,
-  #contact h6 {
-    color: black;
-  }
-
-
-  .icon-list {
-    list-style: none;
-    padding: 0;
- 
-  }
-  .icon-list > li > i {
-    margin-right: 6px;
-  }
-
-  i.fa.fa-linkedin,i.fa.fa-github,i.fa.fa-gitlab{
-    margin-right: 1rem;
+  background: #fff;
+  color: black;
+  padding-top: 10rem;
+  text-align: justify;
+}
+#contact h1,
+#contact h2,
+#contact h3,
+#contact h4,
+#contact h5,
+#contact h6 {
+  color: black;
 }
 
-  .social-icons a {
- /*    height: 3.5rem;
-    width: 3.5rem; */
-    color: black !important;
- /*    border-radius: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    margin-right: 1rem; */
-    text-decoration:  none;
-    font-size: 16px;
-    font-weight: bolder;
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
+.icon-list {
+  list-style: none;
+  padding: 0;
+}
+.icon-list > li > i {
+  margin-right: 6px;
+}
 
-  .contact{
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-  
-  .social-icons a:last-child {
-    margin-right: 0;
-  }
-  
-  /* .social-icons a:hover {
-    background-color: #BD5D38;
-  } */
-  .dev-icons {
-    font-size: 3rem;
-    display:grid
-  }
-  
- /*  .dev-icons .list-inline-item i:hover {
-    color: #BD5D38;
-  }
- */
+i.fa.fa-linkedin,
+i.fa.fa-github,
+i.fa.fa-gitlab {
+  margin-right: 1rem;
+}
 
- #toast-container {
+.social-icons a {
+  color: black !important;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.contact {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.dev-icons {
+  font-size: 3rem;
+  display: grid;
+}
+
+#toast-container {
   margin-top: 1rem;
 }
 
-#toast-container.toast-top-full-width>.toast {
+#toast-container.toast-top-full-width > .toast {
   max-width: 570px;
 }
 
-#toast-container>.toast-success {
+#toast-container > .toast-success {
   background-color: #35c8c3;
-  opacity:1;
-  box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-#toast-container>.toast-success:hover {
+#toast-container > .toast-success:hover {
   background-color: #35c8c3;
-  opacity:1;
-  box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 .btn,
@@ -96,7 +81,6 @@
   box-shadow: none;
 }
 
-
 .form-control {
   background: #fff;
   border: 2px solid #c4c4c4;
@@ -105,7 +89,6 @@
   padding: 15px;
   color: #777;
 }
-
 
 .form-control:focus {
   color: #495057;
@@ -125,10 +108,9 @@
 }
 
 .Toastify__toast--success {
-  background:#419760!important;
+  background: #419760 !important;
 }
 
 .btn .icon-before {
   margin-right: 6px;
 }
-
