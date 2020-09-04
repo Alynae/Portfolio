@@ -10,7 +10,7 @@ import Main from "./component/IntroComponent/Home";
 import   Resume  from "./component/ResumeComponent/Resume";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./css/App.css";
+import "./css/App.scss";
 
 
 const Portfolio = lazy(()=> import ("./component/PortfolioComponent/portfolio"));

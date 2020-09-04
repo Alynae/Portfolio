@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import data from "../data";
 import { useParams } from "react-router-dom";
-import "./project.css";
-import work from "../../../img/project/WorkBlur.jpg";
+import "./project.scss";
+import work from "../../../img/project/WorkBlur.webp";
 import ModalImg from "../Modal/modal";
 
 const ProjectDetail = (props: any) => {

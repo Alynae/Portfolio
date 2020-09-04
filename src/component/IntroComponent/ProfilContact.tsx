@@ -1,5 +1,4 @@
 import React from 'react';
-import "./IntroComp.css"
 import {NavLink} from 'react-router-dom'
 
 

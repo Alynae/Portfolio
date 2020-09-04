@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Type.css"
+import "./Type.scss"
 
 const Typer = ({ title = "", dataText }: TyperProps) => {
   const [text, setText] = useState("");

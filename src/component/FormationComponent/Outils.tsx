@@ -1,22 +1,22 @@
 import React from "react";
-import html from "../../img/logo/html5.png";
-import css from "../../img/logo/css3.png";
-import php from "../../img/logo/php.png";
-import laravel from "../../img/logo/laravel.png";
-import symfony from "../../img/logo/symfony.png";
-import javascript from "../../img/logo/javascript.png";
-import angular from "../../img/logo/angular.png";
-import reactjs from "../../img/logo/reactjs.png";
-import bootstrap from "../../img/logo/bootstrap.png";
-import intelliJ from "../../img/logo/intellij.png";
-import vscode from "../../img/logo/vscode.png";
-import mysql from "../../img/logo/mysql.png";
-import git from "../../img/logo/git.png";
-import gitlab from "../../img/logo/gitlab.png";
+import html from "../../img/logo/html5.webp";
+import css from "../../img/logo/css3.webp";
+import php from "../../img/logo/php.webp";
+import laravel from "../../img/logo/laravel.webp";
+import symfony from "../../img/logo/symfony.webp";
+import javascript from "../../img/logo/javascript.webp";
+import angular from "../../img/logo/angular.webp";
+import reactjs from "../../img/logo/reactjs.webp";
+import bootstrap from "../../img/logo/bootstrap.webp";
+import intelliJ from "../../img/logo/intellij.webp";
+import vscode from "../../img/logo/vscode.webp";
+import mysql from "../../img/logo/mysql.webp";
+import git from "../../img/logo/git.webp";
+import gitlab from "../../img/logo/gitlab.webp";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "./Outils.css";
+import "./Outils.scss";
 
 export default function Outils() {
   return (

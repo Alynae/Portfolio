@@ -1,6 +1,6 @@
 import React from 'react';
-import profile from '../../../img/profile.jpg'
-import "./Profile.css"
+import profile from '../../../img/profile.webp'
+import "./Profile.scss"
 
 
 export default function Profils() {
@@ -11,8 +11,8 @@ export default function Profils() {
                     <div className="col-md-12 headline " >
                         <h2>Jérémy Le bricquer</h2>
                         <p>Dev Web Junior | Front &amp; Back</p></div>
-                    <div className="col-md-3 col-sm-6 hidden-xs " >
-                        <img className="avatar" src={profile} alt="" />
+                    <div className="col-md-3 col-sm-6 d-none d-sm-block" >
+                        <img className="avatar" src={profile} alt="profile" />
                     </div>
                     <div className="col-md-3 col-sm-6 ">
                         <div className="profile-widget">

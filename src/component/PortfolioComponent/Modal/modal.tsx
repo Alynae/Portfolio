@@ -1,7 +1,6 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
-import { Button } from "react-bootstrap";
-import "./modal.css";
+import "./modal.scss";
 
 const modalImg = (props: any) => {
   const preview = props.item.imgSub.photo[props.index];
@@ -26,11 +25,6 @@ const modalImg = (props: any) => {
             <img className="modalImg" src={preview} alt={preview} />
           </div>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={props.onHide}>
-            Close
-          </Button>
-        </Modal.Footer>
       </Modal>
     </>
   );
