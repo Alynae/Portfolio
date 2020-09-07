@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 import Typer from "./Typer/Typer";
 // @ts-ignore
 import WaterWave from "react-water-wave";
+import { Link } from "react-router-dom";
 
 
 
@@ -71,11 +72,11 @@ const Intro = () => {
                 </p>
               </span>
             </div>
-            <a href="/portfolio/resume" aria-label="resume">
+            <Link to="/portfolio/resume" aria-label="resume">
               <div className="mouse-icon">
                 <div className="wheel"></div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
