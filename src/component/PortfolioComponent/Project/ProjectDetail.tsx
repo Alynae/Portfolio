@@ -19,7 +19,6 @@ const ProjectDetail = (props: any) => {
   });
 
   const handleClick = (value: any) => {
-    console.log(value);
     setState({
       index: value,
     });

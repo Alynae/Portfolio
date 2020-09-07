@@ -71,7 +71,7 @@ const Intro = () => {
                 </p>
               </span>
             </div>
-            <a href="/resume" aria-label="resume">
+            <a href="/portfolio/resume" aria-label="resume">
               <div className="mouse-icon">
                 <div className="wheel"></div>
               </div>

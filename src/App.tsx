@@ -40,14 +40,14 @@ const App = (props:any) => {
         <Navigation />
         <Suspense fallback={renderLoader()}>
         <Switch>
-          <Route exact path="/" component={Main} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/formation" component={Formation} />
+          <Route exact path="/portfolio/about" component={Main} />
+          <Route exact path="/portfolio/resume" component={Resume} />
+          <Route exact path="/portfolio//formation" component={Formation} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/portfolio/contact" component={Contact} />
           <Route exact path={`/portfolio/:id`} render={(props) => <Projects dataProject={Portfolio} {...props} />} />
           <Route component={NoMatchPage} />
-          <Redirect to="/404" />
+          <Redirect to="/portfolio/404" />
         </Switch>
         </Suspense>
       </Router>
