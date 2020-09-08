@@ -13,7 +13,7 @@ export default function CallOut() {
                     <div className="col-md-9 headline nomargin ">
                         <h3>Je suis disponible pour travailler (CDI / Prestation).</h3>
                         <p>Quelques soit votre projet, n'hésitez pas à me contacter pour en parler ensemble.</p>
-                        <Link to="contact">
+                        <Link to="/portfolio/contact">
                             <button type="button" className="btn btn-outline-dark" >
                                 <i className="fa fa-paper-plane-o icon-before"></i>Contactez moi
                             </button>

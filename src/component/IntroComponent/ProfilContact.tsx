@@ -8,7 +8,7 @@ export default function ProfilsContact() {
             <div className="container">
                 <div className="row " >
                     <div className="col-sm-6 " style={{"textAlignLast": "center"}}>
-                    <NavLink className="not-active" to="/contact">
+                    <NavLink className="not-active" to="/portfolio/contact">
                         <div className="profile-item"><i className="fa fa-envelope-o"></i>
                             <p className="link">
                                 lebricquerjeremy@gmail.com
