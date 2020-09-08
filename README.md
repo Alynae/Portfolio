@@ -1,15 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple SPA Portfolio template for developer/designers built with React/typescript.
 
-## Available Scripts
+<p align="center">
+  <a href="https://alynae.github.io/portfolio/">
+    <h2 align="center">Jérémy Le bricquer</h2>
+  </a>
+</p> 
+<p align="center">Web Developer Junior</p>
 
-In the project directory, you can run:
+[![Build Status](https://travis-ci.org/anuraghazra/anuraghazra.github.io.svg?branch=develop)](https://travis-ci.org/anuraghazra/anuraghazra.github.io)
+![GitHub](https://img.shields.io/github/license/anuraghazra/anuraghazra.github.io)
+![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=http%3A%2F%2Fanuraghazra.github.io)
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Preview
+![Preview](https://i.ibb.co/jGhZ4nB/Portfolio.jpg)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
+## How to use
+**Run the site locally**
+
+_NOTE: The default branch for this repo is `develop`, when you push or pull make sure you specify the correct branch_
+
+### Step 1: Clone The Repo
+
+Fork the repository. then clone the repo locally by doing -
+
+```bash
+git clone https://github.com/Alynae/portfolio.git
+```
+
+### Step 2: Install Dependencies
+
+cd into the directory
+
+```bash
+cd alynae.github.io
+```
+
+install all the dependencies
+```bash
+npm install
+```
+
+### Step 3: Start Development Server
+
+Then start the development Server
+```
+npm run develop
+```
+After running the development server the site should be running on https://localhost:3000
+
+
+### Pushing the changes
+
+```bash
+git add .
+git commit -m "commit message"
+git push YOUR_REPO_URL develop
+```
+
+------
+
+
+
+
 
 
