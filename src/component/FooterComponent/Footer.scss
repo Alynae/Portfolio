@@ -13,3 +13,10 @@
 		margin: 5px 0;
 	}
 }
+
+
+@media (max-height: 680px) { 
+	#footer {
+	position: sticky;
+	}
+}
