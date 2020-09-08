@@ -7,9 +7,7 @@ A simple SPA Portfolio template for developer/designers built with React/typescr
 </p> 
 <p align="center">Web Developer Junior</p>
 
-[![Build Status](https://travis-ci.org/anuraghazra/anuraghazra.github.io.svg?branch=develop)](https://travis-ci.org/anuraghazra/anuraghazra.github.io)
-![GitHub](https://img.shields.io/github/license/anuraghazra/anuraghazra.github.io)
-![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=http%3A%2F%2Fanuraghazra.github.io)
+![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=https://alynae.github.io/portfolio/)
 
 
 ## Preview
