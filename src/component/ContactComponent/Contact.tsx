@@ -1,11 +1,18 @@
 import React from "react";
-import "./Contact.css";
+import "./Contact.scss";
 import ContactForm from "./ContactForm";
 import Footer from "../FooterComponent/Footer";
+import { GoogleReCaptchaProvider} from 'react-google-recaptcha-v3';
 
 export default function Contact() {
+
+  const CaptchaKey = process.env.REACT_APP_RECAPTCHA_KEY;
+  
   return (
-    <>
+    <GoogleReCaptchaProvider 
+    reCaptchaKey={CaptchaKey}
+    language="fr" 
+>
       <section id="contact" className="section">
         <div className="container">
           <div className="row">
@@ -13,7 +20,7 @@ export default function Contact() {
               <h2>Contactez moi</h2>
               <p>Une question ? une remarque ? laissez moi un message !</p>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" style={{fontSize:"large"}}>
               <div className="contact">
                 <ul className="icon-list">
                   <li>
@@ -66,6 +73,6 @@ export default function Contact() {
       </section>
 
       <Footer />
-    </>
+      </GoogleReCaptchaProvider>
   );
 }

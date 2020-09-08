@@ -1,5 +1,5 @@
 import React from "react";
-import "./portfolio.css";
+import "./portfolio.scss";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
 import data from './data';

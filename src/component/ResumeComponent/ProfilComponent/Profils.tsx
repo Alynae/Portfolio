@@ -1,6 +1,6 @@
 import React from 'react';
-import profile from '../../../img/profile.jpg'
-import "./Profile.css"
+import profile from '../../../img/profile.webp'
+import "./Profile.scss"
 
 
 export default function Profils() {
@@ -11,13 +11,13 @@ export default function Profils() {
                     <div className="col-md-12 headline " >
                         <h2>Jérémy Le bricquer</h2>
                         <p>Dev Web Junior | Front &amp; Back</p></div>
-                    <div className="col-md-3 col-sm-6 hidden-xs " >
-                        <img className="avatar" src={profile} alt="" />
+                    <div className="col-md-3 col-sm-6 d-none d-sm-block" >
+                        <img className="avatar" src={profile} alt="profile" />
                     </div>
                     <div className="col-md-3 col-sm-6 ">
                         <div className="profile-widget">
                             <h3>Compétences</h3>
-                            <h5>HTML5 / CSS3 </h5>
+                            <h4>HTML5 / CSS3 </h4>
                             <div className="skill-bar">
                                 <div className="skill-rate-on"></div>
                                 <div className="skill-rate-on"></div>
@@ -27,7 +27,7 @@ export default function Profils() {
                                 <div className="skill-rate-on"></div>
                                 <div className="skill-rate-off"></div>
                                 <div className="skill-rate-off"></div></div>
-                            <h5>Symfony / Laravel</h5>
+                            <h4>Symfony / Laravel</h4>
                             <div className="skill-bar">
                                 <div className="skill-rate-on"></div>
                                 <div className="skill-rate-on"></div>
@@ -38,7 +38,7 @@ export default function Profils() {
                                 <div className="skill-rate-off"></div>
                                 <div className="skill-rate-off"></div>
                             </div>
-                            <h5>Angular / React / Jquery / Javascript</h5>
+                            <h4>Angular / React / Jquery / Javascript</h4>
                             <div className="skill-bar">
                                 <div className="skill-rate-on"></div>
                                 <div className="skill-rate-on"></div>
@@ -49,7 +49,7 @@ export default function Profils() {
                                 <div className="skill-rate-off"></div>
                                 <div className="skill-rate-off"></div>
                             </div>
-                            <h5>MySQL</h5>
+                            <h4>MySQL</h4>
                             <div className="skill-bar"><div className="skill-rate-on">
                             </div><div className="skill-rate-on">
                                 </div><div className="skill-rate-on"></div>
@@ -58,7 +58,7 @@ export default function Profils() {
                                 <div className="skill-rate-on"></div>
                                 <div className="skill-rate-off"></div>
                                 <div className="skill-rate-off"></div>
-                            </div><h5>Photoshop / Figma / Web Design</h5>
+                            </div><h4>Photoshop / Figma / Web Design</h4>
                             <div className="skill-bar">
                                 <div className="skill-rate-on"></div>
                                 <div className="skill-rate-on"></div>
@@ -69,7 +69,7 @@ export default function Profils() {
                                 <div className="skill-rate-off"></div>
                                 <div className="skill-rate-off"></div>
                             </div>
-                            <h5>Windows / Ubuntu </h5>
+                            <h4>Windows / Ubuntu </h4>
                             <div className="skill-bar">
                                 <div className="skill-rate-on"></div>
                                 <div className="skill-rate-on"></div>

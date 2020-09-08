@@ -1,0 +1,149 @@
+#contact {
+  background: #fff;
+  color: black;
+  padding-top: 8rem;
+  text-align: justify;
+  h1 {
+    color: #545454;
+  }
+  h2 {
+    color: #545454;
+  }
+  h3 {
+    color: #545454;
+  }
+  h4 {
+    color: #545454;
+  }
+  h5 {
+    color: #545454;
+  }
+  h6 {
+    color: #545454;
+  }
+}
+.icon-list {
+  list-style: none;
+  padding: 0;
+  > li {
+    > i {
+      margin-right: 6px;
+    }
+  }
+}
+i.fa.fa-linkedin {
+  margin-right: 1rem;
+}
+i.fa.fa-github {
+  margin-right: 1rem;
+}
+i.fa.fa-gitlab {
+  margin-right: 1rem;
+}
+.social-icons {
+  a {
+    color: black !important;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.contact {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.dev-icons {
+  font-size: 3rem;
+  display: grid;
+}
+#toast-container {
+  margin-top: 1rem;
+  > .toast-success {
+    background-color: #35c8c3;
+    opacity: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    &:hover {
+      background-color: #35c8c3;
+      opacity: 1;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+#toast-container.toast-top-full-width {
+  > .toast {
+    max-width: 570px;
+  }
+}
+.btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  .icon-before {
+    margin-right: 6px;
+  }
+}
+.form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #fff;
+  border: 2px solid #c4c4c4;
+  height: 54px;
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+  &:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #080808a1;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.36);
+  }
+  &:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  &::placeholder {
+	color: #514f4f;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}
+.modal-content {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.progress {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-horizontal {
+  .form-group-lg {
+    .form-control {
+      height: 62px;
+    }
+  }
+  .form-group-sm {
+    .form-control {
+      height: 40px;
+      font-size: 12px;
+    }
+  }
+}
+.input-lg {
+  height: 62px;
+}
+.input-sm {
+  height: 40px;
+  font-size: 12px;
+}
+.Toastify__toast--success {
+  background: #419760 !important;
+}

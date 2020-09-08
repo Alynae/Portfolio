@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
-import "./Contact.css";
 
 export default function ContactForm(props: any) {
   
@@ -9,9 +8,9 @@ export default function ContactForm(props: any) {
     emailjs.init("process.env.REACT_APP_EMAILJS_USERID");
   })();
 
-  const template: any = process.env.REACT_APP_EMAILJS_TEMPLATEID;
-  const userID: any = process.env.REACT_APP_EMAILJS_USERID;
-  const service: any = "gmail";
+  const template: string = (process.env.REACT_APP_EMAILJS_TEMPLATEID as string);
+  const userID: string = (process.env.REACT_APP_EMAILJS_USERID as string);
+  const service: string = "gmail";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -45,9 +44,10 @@ export default function ContactForm(props: any) {
     <div className="col-md-6">
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label className="sr-only">Nom </label>
+          <label className="sr-only" htmlFor="name">Nom</label>
           <input
             className="form-control"
+            id="name"
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -58,9 +58,10 @@ export default function ContactForm(props: any) {
         </div>
 
         <div className="form-group">
-          <label className="sr-only">email</label>
+          <label className="sr-only" htmlFor="email">email</label>
           <input
             className="form-control"
+            id="email"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -71,13 +72,13 @@ export default function ContactForm(props: any) {
         </div>
 
         <div className="form-group">
-          <label className="sr-only">feedback</label>
+          <label className="sr-only" htmlFor="feedback">feedback</label>
           <textarea
             className="form-control"
+            id="feedback"
             value={feedback}
             onChange={(e) => setFeedback(e.target.value)}
             name="feedback"
-            id="feedback"
             placeholder="Votre message"
           ></textarea>
         </div>

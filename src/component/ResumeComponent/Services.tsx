@@ -9,7 +9,7 @@ export default function Services() {
                 <div className="row">
                     <div className="col-md-12 headline wow bounceInDown animated" 
                     style={{"visibility": "visible", "animationName": "bounceInDown"}}>
-                        <h2>Ce que je peux faire</h2>
+                        <h3>Ce que je peux faire</h3>
                         <p>Mes compétences</p>
                     </div>
                     <div className="col-md-12">

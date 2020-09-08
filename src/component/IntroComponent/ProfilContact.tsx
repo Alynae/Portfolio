@@ -1,5 +1,5 @@
 import React from 'react';
-import "./IntroComp.css"
+import {NavLink} from 'react-router-dom'
 
 
 export default function ProfilsContact() {
@@ -8,11 +8,13 @@ export default function ProfilsContact() {
             <div className="container">
                 <div className="row " >
                     <div className="col-sm-6 " style={{"textAlignLast": "center"}}>
+                    <NavLink className="not-active" to="/contact">
                         <div className="profile-item"><i className="fa fa-envelope-o"></i>
                             <p className="link">
-                                <a className="not-active" href="mailto:jeremylebricquer@gmail.com">jeremylebricquer@gmail.com</a>
+                                lebricquerjeremy@gmail.com
                             </p>
                         </div>
+                        </NavLink>
                     </div>
                     <div className="col-sm-6 " style={{"textAlignLast": "center"}}>
                         <div className="profile-item">

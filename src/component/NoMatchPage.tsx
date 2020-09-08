@@ -1,5 +1,5 @@
 import React from "react";
-import "../../src/css/404.css";
+import "../../src/css/404.scss";
 import { Link } from "react-router-dom";
 
 const NoMatchPage = () => {

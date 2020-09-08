@@ -1,5 +1,4 @@
 import React from "react";
-
 import ProjectDetail from "./ProjectDetail";
 
 const Projects = (props: any) => {
