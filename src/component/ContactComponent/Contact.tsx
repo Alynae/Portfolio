@@ -13,7 +13,7 @@ export default function Contact() {
     reCaptchaKey={CaptchaKey}
     language="fr" 
 >
-      <section id="contact" className="section">
+      <section id="contact">
         <div className="container">
           <div className="row">
             <div className="col-md-12 headline">
