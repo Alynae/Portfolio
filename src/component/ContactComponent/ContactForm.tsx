@@ -42,7 +42,7 @@ export default function ContactForm(props: any) {
 
   return (
     <div className="col-md-6">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} style={{paddingBottom:"1rem"}}>
         <div className="form-group">
           <label className="sr-only" htmlFor="name">Nom</label>
           <input
