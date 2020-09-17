@@ -1,16 +1,14 @@
 A simple SPA Portfolio template for developer/designers built with React/typescript.
 
 <p align="center">
-  <a href="https://alynae.github.io/portfolio/">
     <h2 align="center">Jérémy Le bricquer</h2>
-  </a>
 </p> 
 <p align="center">Web Developer Junior</p>
 
 ![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=https://alynae.github.io/portfolio/)
 
 ## Preview
-![Preview](https://i.ibb.co/jGhZ4nB/Portfolio.jpg)
+![Preview](  <a href="https://alynae.github.io/portfolio/")
 
 
 ## How to use
