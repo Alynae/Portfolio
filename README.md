@@ -1,9 +1,8 @@
 A simple SPA Portfolio template for developer/designers built with React/typescript.
 
 <p align="center">
-  <a href="https://alynae.github.io/portfolio/">
-    <h2 align="center">Jérémy Le bricquer</h2>
-  </a>
+  <a href="https://alynae.github.io/portfolio/">Link</a>
+    <h2 align="center">Jérémy Le bricquer</h2> 
 </p> 
 <p align="center">Web Developer Junior</p>
 
