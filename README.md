@@ -8,7 +8,7 @@ A simple SPA Portfolio template for developer/designers built with React/typescr
 ![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=https://alynae.github.io/portfolio/)
 
 ## Preview
-![Preview](  <a href="https://alynae.github.io/portfolio/")
+![Preview]("https://alynae.github.io/portfolio/")
 
 
 ## How to use
