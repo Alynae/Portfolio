@@ -57,6 +57,12 @@ i.fa.fa-gitlab {
   margin-top: 2rem;
   margin-left: 2rem;
 }
+@media(max-width:425px){
+  #contact{
+    padding-top: 4rem;
+  }
+}
+
 .dev-icons {
   font-size: 3rem;
   display: grid;
@@ -86,6 +92,11 @@ i.fa.fa-gitlab {
     margin-right: 6px;
   }
 }
+  .headline {
+   margin: 0 0;
+}
+
+
 .form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
