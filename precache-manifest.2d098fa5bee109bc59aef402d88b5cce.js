@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc60fdcc16d7492b9977ae1517972e49",
+    "revision": "b2fadf7f25fc7411f0df7239a672afdc",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,36 +8,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.fb230578.chunk.css"
   },
   {
-    "revision": "fe28d304ba60fe8b564e",
+    "revision": "981f1286437ce7d89e88",
     "url": "/portfolio/static/css/3.b56c3779.chunk.css"
   },
   {
-    "revision": "46ace39b89b9d879aea0",
+    "revision": "a67fb2d0f3c8fc456c6f",
     "url": "/portfolio/static/css/4.862f72be.chunk.css"
   },
   {
-    "revision": "a39e21047ca2eae3fbd5",
+    "revision": "a2fbddfcdfe72c360e47",
     "url": "/portfolio/static/css/5.800247af.chunk.css"
   },
   {
-    "revision": "abd742efc3f27e61c132",
+    "revision": "d65170a74235eebe754b",
     "url": "/portfolio/static/css/6.cf4b61a9.chunk.css"
   },
   {
-    "revision": "2131f2201f48d6b5ba4b",
+    "revision": "6714dead355006b313db",
     "url": "/portfolio/static/css/7.aa267290.chunk.css"
   },
   {
-    "revision": "2e86fcf63a57dba78d0f",
+    "revision": "ade8e7cdf9a50db96a05",
     "url": "/portfolio/static/css/9.2d99411c.chunk.css"
   },
   {
-    "revision": "dab4a468ae95ecee4be0",
+    "revision": "2bb2b55f648eb3210424",
     "url": "/portfolio/static/css/main.8ce283df.chunk.css"
   },
   {
-    "revision": "633f315cfa84b953e1b1",
-    "url": "/portfolio/static/js/10.5a840e10.chunk.js"
+    "revision": "e6a4c06e3f09a65d444e",
+    "url": "/portfolio/static/js/10.30fba197.chunk.js"
   },
   {
     "revision": "7719611bd8d8197cd1db",
@@ -48,40 +48,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.0f1f400b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe28d304ba60fe8b564e",
-    "url": "/portfolio/static/js/3.0d7b9e70.chunk.js"
+    "revision": "981f1286437ce7d89e88",
+    "url": "/portfolio/static/js/3.42a097c9.chunk.js"
   },
   {
-    "revision": "46ace39b89b9d879aea0",
-    "url": "/portfolio/static/js/4.d345becc.chunk.js"
+    "revision": "a67fb2d0f3c8fc456c6f",
+    "url": "/portfolio/static/js/4.0d8b2e3b.chunk.js"
   },
   {
-    "revision": "a39e21047ca2eae3fbd5",
-    "url": "/portfolio/static/js/5.53bfad1d.chunk.js"
+    "revision": "a2fbddfcdfe72c360e47",
+    "url": "/portfolio/static/js/5.cbb8c489.chunk.js"
   },
   {
-    "revision": "abd742efc3f27e61c132",
-    "url": "/portfolio/static/js/6.e504119a.chunk.js"
+    "revision": "d65170a74235eebe754b",
+    "url": "/portfolio/static/js/6.b19eae8b.chunk.js"
   },
   {
-    "revision": "2131f2201f48d6b5ba4b",
-    "url": "/portfolio/static/js/7.8f32d061.chunk.js"
+    "revision": "6714dead355006b313db",
+    "url": "/portfolio/static/js/7.2bff0017.chunk.js"
   },
   {
-    "revision": "f22b06dd06c2bbe30ab7",
-    "url": "/portfolio/static/js/8.65fba336.chunk.js"
+    "revision": "0bcdb20231836a64c3c7",
+    "url": "/portfolio/static/js/8.18d83642.chunk.js"
   },
   {
-    "revision": "2e86fcf63a57dba78d0f",
-    "url": "/portfolio/static/js/9.6b35c341.chunk.js"
+    "revision": "ade8e7cdf9a50db96a05",
+    "url": "/portfolio/static/js/9.6d1582b5.chunk.js"
   },
   {
-    "revision": "dab4a468ae95ecee4be0",
-    "url": "/portfolio/static/js/main.5afec14d.chunk.js"
+    "revision": "2bb2b55f648eb3210424",
+    "url": "/portfolio/static/js/main.7b5e3089.chunk.js"
   },
   {
-    "revision": "2fd3ae6c6e6531cbc6b3",
-    "url": "/portfolio/static/js/runtime-main.e632b6f3.js"
+    "revision": "f1934133737063916705",
+    "url": "/portfolio/static/js/runtime-main.0afd9c57.js"
   },
   {
     "revision": "490b4a40fb822bd3965efe2204bb256f",
@@ -142,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "638402d705e3a17c6502cc618630f03d",
     "url": "/portfolio/static/media/PreviewWorkinprogress.638402d7.webp"
+  },
+  {
+    "revision": "4b134ef04bdb49999bc7abe0db7d4e96",
+    "url": "/portfolio/static/media/PreviewweatherApp.4b134ef0.webp"
   },
   {
     "revision": "798cf04e66f28855757f637d0db1e765",
@@ -258,5 +262,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc61e2bd93d2110ef27956fbd1f65f30",
     "url": "/portfolio/static/media/vscode.dc61e2bd.webp"
+  },
+  {
+    "revision": "47bed32f8d360125724600f1d1cb10e9",
+    "url": "/portfolio/static/media/weatherApp.47bed32f.webp"
   }
 ]);
