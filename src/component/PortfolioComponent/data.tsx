@@ -78,6 +78,18 @@ const FULLSTACK = "FullStack";
     },
     {
       id: 6,
+      name: "Weather App",
+      img: require("../../img/project/6/PreviewweatherApp.webp"),
+      imgSub: {photo:[require("../../img/project/6/weatherApp.webp")],title:['Weather Ap']},
+      type: FRONTEND,
+      desc:"Petite application méteo sous angular. La météo se base sur la position du navigateur. Si la géolocalisation est désactivée côté client, la position du gps est fixé sur Lannion",
+      language:'Angular / typescript',
+      client:'/',
+      date:'Septembre 2020',
+      service:'Developpement',
+    },
+    {
+      id: 7,
       name: "ootrTracker - wip",
       img: require("../../img/project/PreviewWorkinprogress.webp"),
       imgSub: {photo:[require("../../img/project/Work-In-Progress.webp")],title:['ootrTracker - wip']},
