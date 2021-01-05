@@ -7,9 +7,12 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-              <div>
-                 <p className="copy" style={{ textAlign: "center" }}> © 2020 Jérémy Le bricquer </p>
-              </div>
+            <div>
+              <p className="copy" style={{ textAlign: "center" }}>
+                {" "}
+                © {new Date().getFullYear()} Jérémy Le bricquer{" "}
+              </p>
+            </div>
           </div>
         </div>
       </div>

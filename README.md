@@ -1,5 +1,3 @@
-A simple SPA Portfolio template for developer/designers built with React/typescript.
-
 <p align="center">
     <h2 align="center">Jérémy Le bricquer</h2>
 </p> 
@@ -8,12 +6,15 @@ A simple SPA Portfolio template for developer/designers built with React/typescr
 ![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=https://alynae.github.io/portfolio/)
 
 ## Demo
+
 [Demo](https://alynae.github.io/portfolio/)
 
 ## Preview
+
 ![Preview](https://i.ibb.co/jGhZ4nB/Portfolio.jpg)
 
 ## How to use
+
 **Run the site locally**
 
 _NOTE: The default branch for this repo is `master`, when you push or pull make sure you specify the correct branch_
@@ -35,6 +36,7 @@ cd alynae.github.io
 ```
 
 install all the dependencies
+
 ```bash
 npm install
 ```
@@ -42,11 +44,12 @@ npm install
 ### Step 3: Start Development Server
 
 Then start the development Server
+
 ```
 npm run start
 ```
-After running the development server the site should be running on https://localhost:3000
 
+After running the development server the site should be running on https://localhost:3000
 
 ### Pushing the changes
 
@@ -56,10 +59,4 @@ git commit -m "commit message"
 git push YOUR_REPO_URL
 ```
 
-------
-
-
-
-
-
-
+---
